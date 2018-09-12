@@ -1,5 +1,5 @@
 # pdquant
-This module mainly use pandas to do backtest and live trading on python.
+This module mainly use pandas in python to do backtest and live trading on oanda.
 
 pandas's dataframe is very similar to MS EXCEL,what-you-see-is-what-you-get,
 
