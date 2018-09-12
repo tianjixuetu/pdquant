@@ -10,10 +10,12 @@ A strategy contains :
 2.when to close the trade that has opened before
 3.whether to add or minus the position
 4.whether to stop loss or take profit
+
 position size contains:
 1.the same position size  overrall the strategy
 2.the position size is a same percentage of your value 
 3.the position size change according some conditions
+
 columns contains:
 1.datas:open,high,low,close,volume,and so on.
 2.signals:which decide buy\sell\close
@@ -23,6 +25,7 @@ columns contains:
 6.position_value:how much value about your positions.
 7.value:how much about your account
 8.return:how much log return you got from every period.
+
 performance contains:
 according to the daily return,this module will use pyfolio module
 to calculate the performance.
@@ -33,8 +36,8 @@ if you use the for-loop backtest,you need generates the signals and position siz
 # live trading
 if you use a for-loop mode,you can use this mode to generate signals and position size,then,this module will 
 creat order and trade in the oanda
-
-note:this is just the version0.1,so,there maybe somebugs,if you use this module backtest and trade,you should bear the consequences
+# note
+this is just the version0.1,so,there maybe somebugs,if you use this module backtest and trade,you should bear the consequences
 
 
 
