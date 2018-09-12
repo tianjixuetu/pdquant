@@ -3,7 +3,7 @@ This module mainly use pandas in python to do backtest and live trading on oanda
 
 pandas's dataframe is very similar to MS EXCEL,what-you-see-is-what-you-get,
 
-this property can make you test your startegy and do a live trading.
+this property can make you test your startegy and do a live trading very simple.
 
 now,the first value is used to test currency,and trade in oanda.In the future,
 
