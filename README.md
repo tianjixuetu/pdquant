@@ -11,7 +11,7 @@ this module may assit stock,future,fund,and so on.
 
 # key concept
 
-A strategy contains :
+### A strategy contains :
 
 1.when to open a trade in  position size
 
@@ -21,7 +21,7 @@ A strategy contains :
 
 4.whether to stop loss or take profit
 
-position size contains:
+### position size contains:
 
 1.the same position size  overrall the strategy
 
@@ -29,7 +29,7 @@ position size contains:
 
 3.the position size change according some conditions
 
-columns contains:
+### columns contains:
 
 1.datas:open,high,low,close,volume,and so on.
 
@@ -47,7 +47,7 @@ columns contains:
 
 8.return:how much log return you got from every period.
 
-performance contains:
+### performance contains:
 
 according to the daily return,this module will use pyfolio module
 
